@@ -1,5 +1,7 @@
 package conta.model;
 
+public abstract class Conta {
+
 public class Conta {
 	
 	 
