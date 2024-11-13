@@ -4,8 +4,8 @@ public class ContaCorrente extends Conta {
 
 	private float limite;
 
-	public ContaCorrente(int numero, int agencia, int tipo, String titular, float saldo, float limite) {
-		super(numero, agencia, tipo, titular, saldo);
+	public ContaCorrente(int numero, int agencia, int tipo, String titular, float saldo, float limite, int numeroCelular) {
+		super(numero, agencia, tipo, titular, saldo, numeroCelular);
 		this.limite = limite;
 	}
 
